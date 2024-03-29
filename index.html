@@ -1,501 +1,726 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
 
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <!-- Basic -->
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1,
-      shrink-to-fit=no">
-    <!-- Site Metas -->
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="images/favicon.png" type="">
-    <title> Hospital Faustino Pérez </title>
-    <!-- bootstrap core css -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <!-- fonts style -->
-    <link
-href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&amp;display=swap"
-      rel="stylesheet">
-    <!--owl slider stylesheet -->
-    <link rel="stylesheet" type="text/css"
-href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <!-- font awesome style -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
+    <title>Hospital Faustino Pérez</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <!-- responsive style -->
-    <link href="css/responsive.css" rel="stylesheet">
-  </head>
-  <body>
-    <div class="hero_area">
-      <div class="hero_bg_box">
-        <div class="bg_img_box"> <img src="images/hero-bg.png" alt="">
-        </div>
-      </div>
-      <!-- header section strats -->
-      <header class="header_section">
-        <div class="container-fluid">
-          <nav class="navbar navbar-expand-lg custom_nav-container "> <a
-              class="navbar-brand" href="index.html"> <span> Hospital Clínico Quirúrgico Docente Faustino Pérez </span>
-            </a> <button class="navbar-toggler" type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false" aria-label="Toggle navigation"> <span
-                class=""> </span> </button>
-            <div class="collapse navbar-collapse"
-              id="navbarSupportedContent">
-              <ul class="navbar-nav ">
-                <li class="nav-item active"> <a class="nav-link"
-                    href="index.html"> Inicio <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item"> <a class="nav-link"
-                    href="about.html">Nosotros</a> </li>
-                <li class="nav-item"> <a class="nav-link"
-                    href="service.html">Servicios</a> </li>
-                <li class="nav-item"> <a class="nav-link"
-                    href="why.html">Especialidad</a> </li>
-                <li class="nav-item"> <a class="nav-link"
-                    href="team.html">Contactos</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#"> <i
-                      class="fa fa-user" aria-hidden="true"></i> Login</a>
-                </li>
-                <form class="form-inline"> <button class="btn my-2
-                    my-sm-0 nav_search-btn" type="submit"> <i class="fa
-                      fa-search" aria-hidden="true"></i> </button> </form>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </header>
-      <!-- end header section -->
-      <!-- slider section -->
-      <section class="slider_section ">
-        <div id="customCarousel1" class="carousel slide"
-          data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="container ">
-                <div class="row">
-                  <div class="col-md-6 ">
-                    <div class="detail-box">
-                      <h1> Hospital <br>
-                        Faustino Perez </h1>
-                      <p>Bienvenido al Hospital Docente, líder en atención médica y enseñanza académica. Nuestro compromiso es brindar cuidado de la más alta calidad, respaldado por la excelencia académica de nuestros profesionales. Con tecnología de vanguardia y un enfoque centrado en el paciente, estamos aquí para cuidar de ti y tu familia.</p>
-                      <div class="btn-box"> <a href="" class="btn1">
-                         Leer más </a> </div>
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid py-2 border-bottom d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-decoration-none text-body pe-3" href=""><i class="bi bi-telephone me-2"></i>+012 345 6789</a>
+                        <span class="text-body">|</span>
+                        <a class="text-decoration-none text-body px-3" href=""><i class="bi bi-envelope me-2"></i>info@example.com</a>
                     </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="img-box"> <img
-                        src="images/slider-img.png" alt=""> </div>
-                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="carousel-item ">
-              <div class="container ">
-                <div class="row">
-                  <div class="col-md-6 ">
-                    <div class="detail-box">
-                      <h1> Hospital <br>
-                        Docente </h1>
-                      <p> Nuestro hospital docente integra atención médica de calidad con formación académica. Médicos residentes y estudiantes realizan rotaciones clínicas supervisadas, contribuyendo al avance científico. Además, se llevan a cabo investigaciones médicas y se imparten conferencias para promover la excelencia en el cuidado de la salud y la educación médica continua. </p>
-                      <div class="btn-box"> <a href="" class="btn1">
-                          Leer más </a> </div>
+                <div class="col-md-6 text-center text-lg-end">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-body px-2" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-body px-2" href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-body px-2" href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-body px-2" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-body ps-2" href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
                     </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="img-box"> <img
-                        src="images/slider-img.png" alt=""> </div>
-                  </div>
                 </div>
-              </div>
             </div>
-            <div class="carousel-item">
-              <div class="container ">
-                <div class="row">
-                  <div class="col-md-6 ">
-                    <div class="detail-box">
-                      <h1> Formación <br>
-                        Academica </h1>
-                      <p> Nuestro hospital docente ofrece a los futuros médicos una experiencia integral. Proporcionamos rotaciones clínicas supervisadas por expertos, oportunidades de participación en investigaciones médicas y acceso a conferencias educativas. Preparamos a los médicos en formación para una carrera exitosa, fomentando el aprendizaje práctico y el desarrollo profesional. </p>
-                      <div class="btn-box"> <a href="" class="btn1">
-                          Leer más </a> </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top bg-white shadow-sm">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-clinic-medical me-2"></i>Hospital Faustino</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                        <a href="about.html" class="nav-item nav-link">Nosotros</a>
+                        <a href="service.html" class="nav-item nav-link">Servicios</a>
+                        <a href="price.html" class="nav-item nav-link">Estructura</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="blog.html" class="dropdown-item">Historia</a>
+                                <a href="detail.html" class="dropdown-item">Blog</a>
+                                <a href="team.html" class="dropdown-item">Equipo</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonios</a>
+                                <a href="testimonial.html" class="dropdown-item">Docencia</a>
+                                <a href="testimonial.html" class="dropdown-item">Investigación</a>
+                                <a href="appointment.html" class="dropdown-item">Consultas</a>
+                                <a href="search.html" class="dropdown-item">Buscar</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contactos</a>
                     </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="img-box"> <img
-                        src="images/slider-img.png" alt=""> </div>
-                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <ol class="carousel-indicators">
-            <li data-target="#customCarousel1" data-slide-to="0"
-              class="active"><br>
-            </li>
-            <li data-target="#customCarousel1" data-slide-to="1"><br>
-            </li>
-            <li data-target="#customCarousel1" data-slide-to="2"><br>
-            </li>
-          </ol>
+            </nav>
         </div>
-      </section>
-      <!-- end slider section --> </div>
-    <!-- service section -->
-    <section class="service_section layout_padding">
-      <div class="service_container">
-        <div class="container ">
-          <div class="heading_container heading_center">
-            <h2> Nuestros <span>Servicios</span> </h2>
-            <p> Descubre nuestra amplia gama de servicios médicos especializados en nuestro hospital clínico-quirúrgico docente. Ofrecemos atención de calidad respaldada por experiencia académica y tecnología avanzada. </p>
-          </div>
-          <div class="row">
-            <div class="col-md-4 ">
-              <div class="box ">
-                <div class="img-box"> <img src="images/s1.png" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>CirugIa de alta complejidad</h5>
-                  <p>  Realizamos procedimientos quirúrgicos avanzados, desde cirugía cardiovascular hasta trasplantes de órganos, con la supervisión de expertos en el campo.</p>
-                  <a href=""> Leer más </a> </div>
-              </div>
-            </div>
-            <div class="col-md-4 ">
-              <div class="box ">
-                <div class="img-box"> <img src="images/s2.png" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>Consultas especializadas</h5>
-                  <p>Proporcionamos evaluaciones médicas exhaustivas y tratamientos especializados en diversas áreas, incluyendo cardiología, oncología y neurología</p>
-                  <a href=""> Leer más </a> </div>
-              </div>
-            </div>
-            <div class="col-md-4 ">
-              <div class="box ">
-                <div class="img-box"> <img src="images/s3.png" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5> EducaciOn mEdica</h5>
-                  <p>Nuestro servicio de educación médica ofrece programas de formación avanzada para estudiantes y residentes, con prácticas clínicas supervisadas por expertos.</p>
-                  <a href=""> Leer más </a> </div>
-              </div>
-            </div>
-          </div>
-          <div class="btn-box"> <a href=""> Ver todos </a> </div>
-        </div>
-      </div>
-    </section>
-    <!-- end service section -->
-    <!-- about section -->
-    <section class="about_section layout_padding">
-      <div class="container ">
-        <div class="heading_container heading_center">
-          <h2> Sobre <span>Nosotros</span> </h2>
-          <p>Líderes en atención médica y educación, ofreciendo servicios de calidad y formación académica excepcionalmente avanzada.</p>
-        </div>
-        <div class="row">
-          <div class="col-md-6 ">
-            <div class="img-box"> <img src="images/about-img.png"
-                alt=""> </div>
-          </div>
-          <div class="col-md-6">
-            <div class="detail-box">
-              <h3> ¿Quienes Somos? </h3>
-              <p><br>
-              A principios de los años 80, se inicia la construcción del hospital, liderado inicialmente por ECOA 10 y luego por un contingente. En 1989, Fidel Castro propone su formación tras un accidente ferroviario. Con 110,000 m2, forma parte de un complejo de salud. Abre sus puertas en etapas a partir de 1995, siendo la primera en honor a Faustino Pérez en 1995.</p>
-              <a href=""> Leer más </a> </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end about section -->
-    <!-- why section -->
-    <section class="why_section layout_padding">
-      <div class="container">
-        <div class="heading_container heading_center">
-          <h2> Por qué <span>Escogernos</span> </h2>
-        </div>
-        <div class="why_container">
-          <div class="box">
-            <div class="img-box"> <img src="images/w1.png" alt=""> </div>
-            <div class="detail-box">
-              <h5> Excelencia Académica </h5>
-              <p>  Nuestro hospital clínico-quirúrgico docente ofrece una formación médica de primer nivel, brindando a estudiantes la oportunidad de aprender de expertos en el campo y participar en casos clínicos de alta complejidad para una experiencia educativa enriquecedora y completa. </p>
-            </div>
-          </div>
-          <div class="box">
-            <div class="img-box"> <img src="images/w2.png" alt=""> </div>
-            <div class="detail-box">
-              <h5> Tecnología Avanzada </h5>
-              <p> Contamos con equipos médicos de última generación y técnicas quirúrgicas innovadoras que garantizan diagnósticos precisos y tratamientos efectivos. Nuestro compromiso con la tecnología nos permite ofrecer atención médica de vanguardia y resultados óptimos para nuestros pacientes. </p>
-            </div>
-          </div>
-          <div class="box">
-            <div class="img-box"> <img src="images/w3.png" alt=""> </div>
-            <div class="detail-box">
-              <h5> Enfoque Interdisciplinario </h5>
-              <p> Nuestro enfoque integral de atención médica involucra a diversos especialistas trabajando en equipo para abordar las necesidades médicas de nuestros pacientes desde diferentes perspectivas. Esta colaboración multidisciplinaria asegura una atención integral y personalizada para cada caso. </p>
-            </div>
-          </div>
-          <div class="box">
-            <div class="img-box"> <img src="images/w4.png" alt=""> </div>
-            <div class="detail-box">
-              <h5> Compromiso con la Comunidad </h5>
-              <p> Nos dedicamos a servir a nuestra comunidad proporcionando atención médica accesible y de calidad para todos. Nuestro hospital se compromete a mejorar la salud y el bienestar de la población, ofreciendo servicios médicos compasivos y centrados en el paciente.</p>
-            </div>
-          </div>
-        </div>
-        <div class="btn-box"> <a href=""> Leer más </a> </div>
-      </div>
-    </section>
-    <!-- end why section -->
-    <!-- team section -->
-    <section class="team_section layout_padding">
-      <div class="container-fluid">
-        <div class="heading_container heading_center">
-          <h2 class=""> Nuestro <span> Equipo</span> </h2>
-        </div>
-        <div class="team_container">
-          <div class="row">
-            <div class="col-lg-3 col-sm-6">
-              <div class="box ">
-                <div class="img-box"> <img src="images/team-1.jpg"
-                    class="img1" alt=""> </div>
-                <div class="detail-box">
-                  <h5> Joseph Brown </h5>
-                  <p> Dirección </p>
-                </div>
-                <div class="social_box"> <a href="#"> <i class="fa
-                      fa-facebook" aria-hidden="true"></i> </a> <a
-                    href="#"> <i class="fa fa-twitter"
-                      aria-hidden="true"></i> </a> <a href="#"> <i
-                      class="fa fa-linkedin" aria-hidden="true"></i> </a>
-                  <a href="#"> <i class="fa fa-instagram"
-                      aria-hidden="true"></i> </a> <a href="#"> <i
-                      class="fa fa-youtube-play" aria-hidden="true"></i>
-                  </a> </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="box ">
-                <div class="img-box"> <img src="images/team-2.jpg"
-                    class="img1" alt=""> </div>
-                <div class="detail-box">
-                  <h5> Nancy White </h5>
-                  <p> Recursos Humanos </p>
-                </div>
-                <div class="social_box"> <a href="#"> <i class="fa
-                      fa-facebook" aria-hidden="true"></i> </a> <a
-                    href="#"> <i class="fa fa-twitter"
-                      aria-hidden="true"></i> </a> <a href="#"> <i
-                      class="fa fa-linkedin" aria-hidden="true"></i> </a>
-                  <a href="#"> <i class="fa fa-instagram"
-                      aria-hidden="true"></i> </a> <a href="#"> <i
-                      class="fa fa-youtube-play" aria-hidden="true"></i>
-                  </a> </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="box ">
-                <div class="img-box"> <img src="images/team-3.jpg"
-                    class="img1" alt=""> </div>
-                <div class="detail-box">
-                  <h5> Earl Martinez </h5>
-                  <p> Decano </p>
-                </div>
-                <div class="social_box"> <a href="#"> <i class="fa
-                      fa-facebook" aria-hidden="true"></i> </a> <a
-                    href="#"> <i class="fa fa-twitter"
-                      aria-hidden="true"></i> </a> <a href="#"> <i
-                      class="fa fa-linkedin" aria-hidden="true"></i> </a>
-                  <a href="#"> <i class="fa fa-instagram"
-                      aria-hidden="true"></i> </a> <a href="#"> <i
-                      class="fa fa-youtube-play" aria-hidden="true"></i>
-                  </a> </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="box ">
-                <div class="img-box"> <img src="images/team-4.jpg"
-                    class="img1" alt=""> </div>
-                <div class="detail-box">
-                  <h5> Josephine Allard </h5>
-                  <p> Relaciones públicas </p>
-                </div>
-                <div class="social_box"> <a href="#"> <i class="fa
-                      fa-facebook" aria-hidden="true"></i> </a> <a
-                    href="#"> <i class="fa fa-twitter"
-                      aria-hidden="true"></i> </a> <a href="#"> <i
-                      class="fa fa-linkedin" aria-hidden="true"></i> </a>
-                  <a href="#"> <i class="fa fa-instagram"
-                      aria-hidden="true"></i> </a> <a href="#"> <i
-                      class="fa fa-youtube-play" aria-hidden="true"></i>
-                  </a> </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end team section -->
-    <!-- client section -->
-    <section class="client_section layout_padding">
-      <div class="container">
-        <div class="heading_container heading_center psudo_white_primary
-          mb_45">
-          <h2> Que opinan nuestros <span>Clientes</span> </h2>
-        </div>
-        <div class="carousel-wrap ">
-          <div class="owl-carousel client_owl-carousel">
-            <div class="item">
-              <div class="box">
-                <div class="img-box"> <img src="images/client1.jpg"
-                    alt="" class="box-img"> </div>
-                <div class="detail-box">
-                  <div class="client_id">
-                    <div class="client_info">
-                      <h6> LusDen </h6>
-                      <p> Paciente </p>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+        <div class="container py-5">
+            <div class="row justify-content-start">
+                <div class="col-lg-8 text-center text-lg-start">
+                    <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5" style="border-color: rgba(256, 256, 256, .3) !important;">Bienvenidos</h5>
+                    <div class="hero-container">
+                        <h1 class="display-1 mb-md-4 ">
+                            <p class="p-hero">
+                                <span class="gill-sans-1 ">Hospital Provincial</span>
+                                <br>
+                                <span class="gill-sans-2">Clínico&middot; Quirúrgico&middot; Docente</span>
+                                <br>
+                                <span class="gill-sans-3">Faustino Pérez</span>
+                            </p>
+                        </h1>
                     </div>
-                    <i class="fa fa-quote-left" aria-hidden="true"></i>
-                  </div>
-                  <p> Increíble atención médica y un equipo altamente capacitado. Mi experiencia quirúrgica fue excelente, me sentí seguro y bien cuidado. </p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="box">
-                <div class="img-box"> <img src="images/client2.jpg"
-                    alt="" class="box-img"> </div>
-                <div class="detail-box">
-                  <div class="client_id">
-                    <div class="client_info">
-                      <h6> Zen Court </h6>
-                      <p> Paciente </p>
+                    <div class="pt-2">
+                        <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2">Encontrar un Doctor</a>
+                        <a href="" class="btn btn-outline-light rounded-pill py-md-3 px-md-5 mx-2">Cita</a>
                     </div>
-                    <i class="fa fa-quote-left" aria-hidden="true"></i>
-                  </div>
-                  <p> El hospital ofrece un ambiente acogedor y tecnología de punta. Los médicos son expertos en sus campos, ¡altamente recomendado! </p>
                 </div>
-              </div>
             </div>
-            <div class="item">
-              <div class="box">
-                <div class="img-box"> <img src="images/client1.jpg"
-                    alt="" class="box-img"> </div>
-                <div class="detail-box">
-                  <div class="client_id">
-                    <div class="client_info">
-                      <h6> LusDen </h6>
-                      <p> Paciente </p>
-                    </div>
-                    <i class="fa fa-quote-left" aria-hidden="true"></i>
-                  </div>
-                  <p>¡Profesionales excepcionales y resultados sobresalientes! Mi cirugía fue un éxito gracias al equipo dedicado y la atención personalizada. </p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="box">
-                <div class="img-box"> <img src="images/client2.jpg"
-                    alt="" class="box-img"> </div>
-                <div class="detail-box">
-                  <div class="client_id">
-                    <div class="client_info">
-                      <h6> Zen Court </h6>
-                      <p> Estudiante de medicina </p>
-                    </div>
-                    <i class="fa fa-quote-left" aria-hidden="true"></i>
-                  </div>
-                  <p>El hospital quirúrgico docente ofrece una experiencia invaluable para estudiantes de medicina. Aprendizaje práctico y supervisión experta en un entorno clínico de vanguardia. </p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
-    <!-- end client section -->
-    <!-- info section -->
-    <section class="info_section layout_padding2">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-3 info_col">
-            <div class="info_contact">
-              <h4> Dirección </h4>
-              <div class="contact_link_box"> <a href=""> <i class="fa
-                    fa-map-marker" aria-hidden="true"></i> <span>
-                    Lugar </span> </a> <a href=""> <i class="fa
-                    fa-phone" aria-hidden="true"></i> <span> Call +01
-                    1234567890 </span> </a> <a href=""> <i class="fa
-                    fa-envelope" aria-hidden="true"></i> <span>
-                    demo@gmail.com </span> </a> </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded" src="img/about.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="mb-4">
+                        <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Nosotros</h5>
+                        <h1 class="display-4">¿Quienes Somos?</h1>
+                    </div>
+                    <p>A principios de los años 80, se inicia la construcción del hospital, liderado inicialmente por ECOA 10 y luego por un contingente. En 1989, Fidel Castro propone su formación tras un accidente ferroviario. Con 110,000 m2, forma parte de un complejo de salud. Abre sus puertas en etapas a partir de 1995, siendo la primera en honor a Faustino Pérez en 1995.</p>
+                    <div class="row g-3 pt-3">
+                        <div class="col-sm-3 col-6">
+                            <div class="bg-light text-center rounded-circle py-4">
+                                <i class="fa fa-3x fa-user-md text-primary mb-3"></i>
+                                <h6 class="mb-0">Calificados<small class="d-block text-primary">Doctores</small></h6>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <div class="bg-light text-center rounded-circle py-4">
+                                <i class="fa fa-3x fa-procedures text-primary mb-3"></i>
+                                <h6 class="mb-0">Emergencias<small class="d-block text-primary">Servicios</small></h6>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <div class="bg-light text-center rounded-circle py-4">
+                                <i class="fa fa-3x fa-microscope text-primary mb-3"></i>
+                                <h6 class="mb-0">Precisión<small class="d-block text-primary">Examenes</small></h6>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <div class="bg-light text-center rounded-circle py-4">
+                                <i class="fa fa-3x fa-ambulance text-primary mb-3"></i>
+                                <h6 class="mb-0">Gratis<small class="d-block text-primary">Ambulancias</small></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="info_social"> <a href=""> <i class="fa
-                  fa-facebook" aria-hidden="true"></i> </a> <a href="">
-                <i class="fa fa-twitter" aria-hidden="true"></i> </a> <a
-                href=""> <i class="fa fa-linkedin" aria-hidden="true"></i>
-              </a> <a href=""> <i class="fa fa-instagram"
-                  aria-hidden="true"></i> </a> </div>
-          </div>
-          <div class="col-md-6 col-lg-3 info_col">
-            <div class="info_detail">
-              <h4> Información </h4>
-              <p> Brindamos atención médica de alta calidad, formación académica avanzada y tecnología de vanguardia en nuestro hospital quirúrgico docente. </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-2 mx-auto info_col">
-            <div class="info_link_box">
-              <h4> Enlaces </h4>
-              <div class="info_links"> <a class="active"
-                  href="index.html"> Inicio </a> <a class=""
-                  href="about.html"> Nosotros </a> <a class=""
-                  href="service.html"> Servicios </a> <a class=""
-                  href="why.html"> Especialidades </a> <a class=""
-                  href="team.html"> Contacto </a> </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 info_col ">
-            <h4> Suscripción </h4>
-            <form action="#"> <input placeholder="Enter email"
-                type="text"> <button type="submit"> Suscríbete </button>
-            </form>
-          </div>
         </div>
-      </div>
-    </section>
-    <!-- end info section -->
-    <!-- footer section -->
-    <section class="footer_section">
-      <div class="container">
-        <p> © <span id="displayYear"></span> Todos los derechos reservados a <a
-            href="https://html.design/">Grupo Creativo</a> </p>
-      </div>
-    </section>
-    <!-- footer section -->
-    <!-- jQery -->
-    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <!-- popper js -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-    <!-- bootstrap js -->
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <!-- owl slider -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-  </script>
-    <!-- custom js -->
-    <script type="text/javascript" src="js/custom.js"></script>
-    <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&amp;callback=myMap">
-  </script>
-    <!-- End Google Map -->
-  </body>
+    </div>
+    <!-- About End -->
+
+    <!-- Services Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
+                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Servicios</h5>
+                <h1 class="display-4">Exelente Servicio Médico</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-2x fa-user-md text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Cuidado de Emergencia</h4>
+                        <p class="m-0">Nuestro equipo experto y compasivo está disponible las 24 horas para brindar atención rápida y salvar vidas.</p>
+                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-2x fa-procedures text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Operaciones y Cirugias</h4>
+                        <p class="m-0">Expertos en operaciones quirúrgicas con habilidades precisas y compromiso con la seguridad del paciente. Listo para contribuir al éxito del equipo médico.</p>
+                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-2x fa-stethoscope text-white"></i>
+                        </div>
+                      <h4 class="mb-3">Seguimiento</h4>
+                        <p class="m-0">Proporcionamos seguimiento médico continuo y personalizado para garantizar su salud a largo plazo y mantener su bienestar óptimo.</p>
+                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-2x fa-ambulance text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Servicio de Ambulancia</h4>
+                        <p class="m-0">Brindamos asistencia inmediata y traslados seguros a los servicios de urgencias hospitalarios.</p>
+                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-2x fa-pills text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Medicinas y Farmacia</h4>
+                        <p class="m-0">Ofrecemos selección, preparación, control y dispensación de medicamentos, garantizando una atención farmacéutica de calidad</p>
+                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-2x fa-microscope text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Examen de Sangre</h4>
+                        <p class="m-0">Ofrecemos análisis de sangre, detección temprana y seguimiento de enfermedades sanguíneas</p>
+                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+    <!-- Appointment Start -->
+    <div class="container-fluid bg-primary my-5 py-5">
+        <div class="container py-5">
+            <div class="row gx-5">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="mb-4">
+                        <h5 class="d-inline-block text-white text-uppercase border-bottom border-5">Turnos Médicos</h5>
+                        <h1 class="display-4">Reserva una Cita Médica para tu Familia</h1>
+                    </div>
+                    <p class="text-white mb-5">En nuestro hospital, facilitamos la reserva de citas médicas para tu familia. A través de nuestra plataforma en línea, puedes programar consultas con médicos de familia, pediatras, enfermeras y otros especialistas. Tu salud es nuestra prioridad.</p>
+                    <a class="btn btn-dark rounded-pill py-3 px-5 me-3" href="">Encuentra un Doctor</a>
+                    <a class="btn btn-outline-dark rounded-pill py-3 px-5" href="">Leer más</a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-white text-center rounded p-5">
+                        <h1 class="mb-4">Registra una Cita</h1>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select bg-light border-0" style="height: 55px;">
+                                        <option selected>Selecciona el Departamento</option>
+                                        <option value="1">Department 1</option>
+                                        <option value="2">Department 2</option>
+                                        <option value="3">Department 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select bg-light border-0" style="height: 55px;">
+                                        <option selected>Selecciona el Doctor</option>
+                                        <option value="1">Doctor 1</option>
+                                        <option value="2">Doctor 2</option>
+                                        <option value="3">Doctor 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="date" id="date" data-target-input="nearest">
+                                        <input type="text"
+                                            class="form-control bg-light border-0 datetimepicker-input"
+                                            placeholder="Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="time" id="time" data-target-input="nearest">
+                                        <input type="text"
+                                            class="form-control bg-light border-0 datetimepicker-input"
+                                            placeholder="Time" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Haz una Cita</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appointment End -->
+
+    <!-- Pricing Plan Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
+                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Programas Médicos</h5>
+                <h1 class="display-4">Increibles Programas Médicos</h1>
+            </div>
+            <div class="owl-carousel price-carousel position-relative" style="padding: 0 45px 45px 45px;">
+                <div class="bg-light rounded text-center">
+                    <div class="position-relative">
+                        <img class="img-fluid rounded-top" src="img/price-1.jpg" alt="">
+                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style="background: rgba(29, 42, 77, .8);">
+                            <h3 class="text-white">Cuidado de Embarazadas</h3>
+                            <h1 class="display-4 text-white mb-0">
+                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;">$</small>49<small class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;">/ Year</small>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="text-center py-5">
+                        <p>Tratamiento de Emergencias Médicas</p>
+                        <p>Doctores con Gran Experiencia</p>
+                        <p>Alto Promedio de Éxitos</p>
+                        <p>Servicio Telefónico</p>
+                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2">Aplicar Ahora</a>
+                    </div>
+                </div>
+                <div class="bg-light rounded text-center">
+                    <div class="position-relative">
+                        <img class="img-fluid rounded-top" src="img/price-2.jpg" alt="">
+                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style="background: rgba(29, 42, 77, .8);">
+                            <h3 class="text-white">Health Checkup</h3>
+                            <h1 class="display-4 text-white mb-0">
+                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;">$</small>99<small class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;">/ Year</small>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="text-center py-5">
+                        <p>Tratamientos de Emergencia Médica</p>
+                        <p>Doctores Altamente Experimentados</p>
+                        <p>Highest Success Rate</p>
+                        <p>Servicio Telefónico</p>
+                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2">Aplicar Ahora</a>
+                    </div>
+                </div>
+                <div class="bg-light rounded text-center">
+                    <div class="position-relative">
+                        <img class="img-fluid rounded-top" src="img/price-3.jpg" alt="">
+                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style="background: rgba(29, 42, 77, .8);">
+                            <h3 class="text-white">Cuidado Dental</h3>
+                            <h1 class="display-4 text-white mb-0">
+                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;">$</small>149<small class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;">/ Year</small>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="text-center py-5">
+                        <p>Tratamientos de Emergencia Médica</p>
+                        <p>Doctores Altamente Experimentados</p>
+                        <p>Alto promedio de Éxito</p>
+                        <p>Servicio Telefónico</p>
+                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2">Aplicar Ahora</a>
+                    </div>
+                </div>
+                <div class="bg-light rounded text-center">
+                    <div class="position-relative">
+                        <img class="img-fluid rounded-top" src="img/price-4.jpg" alt="">
+                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center" style="background: rgba(29, 42, 77, .8);">
+                            <h3 class="text-white">Operaciones y Cirugía</h3>
+                            <h1 class="display-4 text-white mb-0">
+                                <small class="align-top fw-normal" style="font-size: 22px; line-height: 45px;">$</small>199<small class="align-bottom fw-normal" style="font-size: 16px; line-height: 40px;">/ Year</small>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="text-center py-5">
+                        <p>Tratamientos de Emergencia Médica</p>
+                        <p>Doctores Altamente Experimentados</p>
+                        <p>Alta Taza de Éxito</p>
+                        <p>Servicio Telefónico</p>
+                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 my-2">Aplicar Ahora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pricing Plan End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
+                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Nuestros Doctores</h5>
+                <h1 class="display-4">Profesionales de la Salud Experimentados</h1>
+            </div>
+            <div class="owl-carousel team-carousel position-relative">
+                <div class="team-item">
+                    <div class="row g-0 bg-light rounded overflow-hidden">
+                        <div class="col-12 col-sm-5 h-100">
+                            <img class="img-fluid h-100" src="img/team-1.jpg" style="object-fit: cover;">
+                        </div>
+                        <div class="col-12 col-sm-7 h-100 d-flex flex-column">
+                            <div class="mt-auto p-4">
+                                <h3>Carlos Rodríguez</h3>
+                                <h6 class="fw-normal fst-italic text-primary mb-4">Especialista de Dermatología</h6>
+                                <p class="m-0">Dermatólogo experimentado que se especializa en tratar trastornos de la piel, cabello, uñas y membranas mucosas. Atiende tanto a adultos como a niños</p>
+                            </div>
+                            <div class="d-flex mt-auto border-top p-4">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <div class="row g-0 bg-light rounded overflow-hidden">
+                        <div class="col-12 col-sm-5 h-100">
+                            <img class="img-fluid h-100" src="img/team-2.jpg" style="object-fit: cover;">
+                        </div>
+                        <div class="col-12 col-sm-7 h-100 d-flex flex-column">
+                            <div class="mt-auto p-4">
+                                <h3>Javier Martínez</h3>
+                                <h6 class="fw-normal fst-italic text-primary mb-4">Especialista de Infectología</h6>
+                                <p class="m-0">Especializado en tratar infecciones difíciles de diagnosticar o tratar. Su enfoque está en enfermedades infecciosas y su manejo.</p>
+                            </div>
+                            <div class="d-flex mt-auto border-top p-4">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item">
+                    <div class="row g-0 bg-light rounded overflow-hidden">
+                        <div class="col-12 col-sm-5 h-100">
+                            <img class="img-fluid h-100" src="img/team-3.jpg" style="object-fit: cover;">
+                        </div>
+                        <div class="col-12 col-sm-7 h-100 d-flex flex-column">
+                            <div class="mt-auto p-4">
+                                <h3>Laura Pérez</h3>
+                                <h6 class="fw-normal fst-italic text-primary mb-4">Especialista de Gastroenterología</h6>
+                                <p class="m-0">Gastroenteróloga dedicada al estudio y tratamiento del sistema digestivo. Realiza procedimientos como colonoscopias, endoscopias y biopsias del hígado.</p>
+                            </div>
+                            <div class="d-flex mt-auto border-top p-4">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Search Start -->
+    <div class="container-fluid bg-primary my-5 py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
+                <h5 class="d-inline-block text-white text-uppercase border-bottom border-5">Encontrar un Doctor</h5>
+                <h1 class="display-4 mb-4">Encontrar un Profesional de la Salud</h1>
+                <h5 class="text-white fw-normal">Encuentra profesionales de la salud en aquí. Verifica sus titulaciones y encuentra el apoyo que necesitas</h5>
+            </div>
+            <div class="mx-auto" style="width: 100%; max-width: 600px;">
+                <div class="input-group">
+                    <select class="form-select border-primary w-25" style="height: 60px;">
+                        <option selected>Departamentos</option>
+                        <option value="1">Department 1</option>
+                        <option value="2">Department 2</option>
+                        <option value="3">Department 3</option>
+                    </select>
+                    <input type="text" class="form-control border-primary w-50" placeholder="Keyword">
+                    <button class="btn btn-dark border-0 w-25">Buscar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Search End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
+                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Testimonios</h5>
+                <h1 class="display-4">Los Paciente Hablan Sobre Nuestos Servicios</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle mx-auto" src="img/testimonial-1.jpg" alt="">
+                                <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle" style="width: 60px; height: 60px;">
+                                    <i class="fa fa-quote-left fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-4 fw-normal">El centro médico Quirón en Jaén cuenta con excelentes especialistas. Las citas son rápidas, y el trato es amable. ¡Recomendado!</p>
+                            <hr class="w-25 mx-auto">
+                            <h3>Mónica Samaniego Ramírez</h3>
+                            <h6 class="fw-normal text-primary mb-3">Profeción</h6>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle mx-auto" src="img/testimonial-2.jpg" alt="">
+                                <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle" style="width: 60px; height: 60px;">
+                                    <i class="fa fa-quote-left fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-4 fw-normal">Hemos ido 2 veces a urgencias con uno de nuestros hijos en el Hospital Universitario HM Sanchinarro. En ambas visitas, el diagnóstico ha sido que tenía gases. El servicio fue rápido y eficiente.</p>
+                            <hr class="w-25 mx-auto">
+                            <h3>Pablo Rodríguez</h3>
+                            <h6 class="fw-normal text-primary mb-3">Profeción</h6>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid rounded-circle mx-auto" src="img/testimonial-3.jpg" alt="">
+                                <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle" style="width: 60px; height: 60px;">
+                                    <i class="fa fa-quote-left fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <p class="fs-4 fw-normal">Mi experiencia en el Hospital Universitario Quirónsalud Madrid fue excepcional. El equipo médico demostró profesionalismo y empatía. Las instalaciones son modernas y limpias. ¡Recomiendo este hospital a todos!</p>
+                            <hr class="w-25 mx-auto">
+                            <h3>Sheila Garcia Sanz</h3>
+                            <h6 class="fw-normal text-primary mb-3">Profeción</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Blog Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
+                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Blog</h5>
+                <h1 class="display-4">Nuestra Ultima Publicación en el Blog</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-xl-4 col-lg-6">
+                    <div class="bg-light rounded overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog-1.jpg" alt="">
+                        <div class="p-4">
+                            <a class="h3 d-block mb-3" href="">Cómo es un Hospital</a>
+                            <p class="m-0">Descubre cómo está organizado un hospital, sus diferentes departamentos y especialidades. Desde servicios médicos hasta cirugía y enfermería, este artículo te sumerge en el mundo hospitalario</p>
+                        </div>
+                        <div class="d-flex justify-content-between border-top p-4">
+                            <div class="d-flex align-items-center">
+                                <img class="rounded-circle me-2" src="img/user.jpg" width="25" height="25" alt="">
+                                <small>John Doe</small>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <small class="ms-3"><i class="far fa-eye text-primary me-1"></i>12345</small>
+                                <small class="ms-3"><i class="far fa-comment text-primary me-1"></i>123</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="bg-light rounded overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog-2.jpg" alt="">
+                        <div class="p-4">
+                            <a class="h3 d-block mb-3" href="">Historias desde el Corazón del Hospital</a>
+                            <p class="m-0">Sumérgete en relatos conmovedores de pacientes, médicos y enfermeras que comparten sus experiencias dentro de las paredes hospitalarias.</p>
+                        </div>
+                        <div class="d-flex justify-content-between border-top p-4">
+                            <div class="d-flex align-items-center">
+                                <img class="rounded-circle me-2" src="img/user.jpg" width="25" height="25" alt="">
+                                <small>John Doe</small>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <small class="ms-3"><i class="far fa-eye text-primary me-1"></i>12345</small>
+                                <small class="ms-3"><i class="far fa-comment text-primary me-1"></i>123</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <div class="bg-light rounded overflow-hidden">
+                        <img class="img-fluid w-100" src="img/blog-3.jpg" alt="">
+                        <div class="p-4">
+                            <a class="h3 d-block mb-3" href="">Innovación en la Atención Hospitalaria</a>
+                            <p class="m-0">Descubre las últimas tendencias y avances en tecnología médica dentro de los hospitales. Desde robótica quirúrgica hasta telemedicina innovadora de la atencion sanitaria.</p>
+                        </div>
+                        <div class="d-flex justify-content-between border-top p-4">
+                            <div class="d-flex align-items-center">
+                                <img class="rounded-circle me-2" src="img/user.jpg" width="25" height="25" alt="">
+                                <small>John Doe</small>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <small class="ms-3"><i class="far fa-eye text-primary me-1"></i>12345</small>
+                                <small class="ms-3"><i class="far fa-comment text-primary me-1"></i>123</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+    
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light mt-5 py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Get In Touch</h4>
+                    <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@example.com</p>
+                    <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+012 345 67890</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Quick Links</h4>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Inicio</a>
+                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Nosotros</a>
+                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Servicios</a>
+                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Nuestro Equipo</a>
+                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Publicaciones</a>
+                        <a class="text-light" href="#"><i class="fa fa-angle-right me-2"></i>Contactos</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Popular Links</h4>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Inicio</a>
+                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Nosotros</a>
+                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Servicios</a>
+                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Nuestro Equipo</a>
+                        <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Noticias</a>
+                        <a class="text-light" href="#"><i class="fa fa-angle-right me-2"></i>Contactos</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Noticias</h4>
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" class="form-control p-3 border-0" placeholder="Your Email Address">
+                            <button class="btn btn-primary">Login</button>
+                        </div>
+                    </form>
+                    <h6 class="text-primary text-uppercase mt-4 mb-3">Síguenos</h6>
+                    <div class="d-flex">
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-light border-top border-secondary py-4">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-md-0">&copy; <a class="text-primary" href="#">Grupo Creativo</a>. Todos los Derechos Reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Diseñado por <a class="text-primary" href="https://htmlcodex.com">Grupo Creativo</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
 </html>
