@@ -4,18 +4,7 @@
 	--org-bg2: #EFF5F9;
 }
 
-.org{
-	padding: 0;
-  .content {
-	font-family: Verdana;
-	font-size: 14px;
-	position: relative;
-  }
-  .content * {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-  }
+
   
   .org-chart {
 	display: block;
@@ -71,7 +60,7 @@
 	border-radius: 5px;
 	padding: 20px 4px;
   }
-  .large{
+  .org-chart .large{
 	font-size: 90% !important;
   }
   .org-chart .lvl-b {
@@ -79,30 +68,31 @@
 	overflow: unset;
 	background: var(--org-bg);
 	color: var(--org-bg2);
-	p{
-		margin: 0 0px 0 25px;
+  }
+  .org-chart .lvl-b p{
+	  margin: 0 0px 0 25px;
 
-	}
-	.icon-lvl-b{
-		position: absolute;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+  }
+  .org-chart .lvl-b .icon-lvl-b{
+	  position: absolute;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
 
-		left: -75px;
-		top: calc(50% - 50px);
+	  left: -75px;
+	  top: calc(50% - 50px);
 
-		width: 100px !important;
-		height: 100px !important;
-		max-width: 100px !important;
-		max-height: 100px !important;
-		object-fit: cover; 
-		aspect-ratio: 1;
-		border-radius: 50%;
-		background: var(--org-bg2);
-		border: 4px solid var(--org-primary);
-	}
+	  width: 100px !important;
+	  height: 100px !important;
+	  max-width: 100px !important;
+	  max-height: 100px !important;
+	  object-fit: cover; 
+	  aspect-ratio: 1;
+	  border-radius: 50%;
+	  z-index: 1000;
+	  background: var(--org-bg2);
+	  border: 4px solid var(--org-primary);
   }
   .org-chart .board {
 	width: 100%;
@@ -264,12 +254,8 @@
 	border-left: 2px solid var(--org-primary);
   }
 
-  .section{
-	span{
-		strong{
-	     line-height: 0.5cm;
-		}
-	}
+  .section span strong{
+	line-height: 0.5cm;
   }
 
   /* MEDIA QUERIES */
@@ -292,16 +278,14 @@
 		float: right;
 	  }
 	  
-  .org-chart .lvl-b {
-	p{
+  	.org-chart .lvl-b p {
 		margin: 0 0 0 80px;
 	}
-	.icon-lvl-b{
+	.org-chart .lvl-b .icon-lvl-b{
 
 		left: -25px;
 		top: calc(50% - 50px);
 	}
-  }
 	.org-chart ul li span, .large {
 		font-size: 100% !important;
 	}
@@ -348,4 +332,4 @@
 	.org-chart .department:last-child{
 	  float: left;
 	}
-  }}
+  }
