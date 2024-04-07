@@ -83,7 +83,7 @@
 		margin: 0 0px 0 25px;
 
 	}
-	.icon{
+	.icon-lvl-b{
 		position: absolute;
 		display: flex;
 		flex-direction: column;
@@ -97,6 +97,8 @@
 		height: 100px !important;
 		max-width: 100px !important;
 		max-height: 100px !important;
+		object-fit: cover; 
+		aspect-ratio: 1;
 		border-radius: 50%;
 		background: var(--org-bg2);
 		border: 4px solid var(--org-primary);
@@ -294,7 +296,7 @@
 	p{
 		margin: 0 0 0 80px;
 	}
-	.icon{
+	.icon-lvl-b{
 
 		left: -25px;
 		top: calc(50% - 50px);
